@@ -26,10 +26,10 @@ email: admin@serover.com
 description: >- # this means to ignore newlines until "baseurl:"
   serover.com - Serover Sclable Inventory - Highly available Cloud Native Scalable Inventory platform.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://serover.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: serovercom
 github_username: serovercom
-google_analytics: 'UA-131361671-1'
+google_analytics: 'G-6QP5GLFCMF'
 
 # Build settings
 markdown: kramdown
