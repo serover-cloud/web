@@ -1,0 +1,48 @@
+---
+layout: default
+title: Home
+---
+
+</div>
+</div>
+<!-- We've temporary closed main-content and container to have a full width intro -->    
+
+
+<!-- Home Jumbotron
+================================================== -->    
+<section class="intro">
+    <div class="wrapintro">
+        <h1>Serover Sclable Inventory.</h1>
+        <h2 class="lead">"Highly available Cloud Native Scalable Inventory platform"</h2>    
+        <a target="_blank" href="/product-overview" class="btn">Learn More</a>
+    </div>
+</section>
+
+<!-- We reopen main-content and container --> 
+
+<div class="container">
+    
+    <div class="main-content">
+	        <section class="featured-posts">
+
+            <div class="section-title">
+                <h2><span>Featured</span></h2>
+            </div>
+
+            <div class="row listfeaturedtag">
+
+            {% for post in site.posts %}
+
+                {% if post.featured == true %}
+
+                    {% include featuredbox.html %}
+
+                {% endif %}
+
+            {% endfor %}
+
+            </div>
+
+        </section>
+	
+ {% include blogcontent.html %}

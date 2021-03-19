@@ -1,0 +1,61 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+name: "Serover Scalable Inventory"
+registered_name: "Serover Technologies Inc."
+description: Serover Sclable Inventory - Highly available Cloud Native Scalable Inventory platform
+meta_description: "Serover Sclable Inventory - Highly available Cloud Native Scalable Inventory platform"
+logo: 'assets/images/logo.png'
+logoicon: 'assets/images/logoicon.png'
+favicon: 'assets/images/favicon.png'
+paginate: 6
+title: Serover Sclable Inventory - Highly available Cloud Native Scalable Inventory platform
+email: admin@serover.com
+description: >- # this means to ignore newlines until "baseurl:"
+  serover.com - Serover Sclable Inventory - Highly available Cloud Native Scalable Inventory platform.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: serovercom
+github_username: serovercom
+google_analytics: 'UA-131361671-1'
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-sitemap
+  
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
