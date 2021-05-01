@@ -21,7 +21,7 @@ The cloud-native, self-service SaaS environments are provisioned immediately. Th
 + Tailored demo of the product
 
 ## Integrate with your ecosystem
-+ Integrate with 
++ Integrate with AWS Marketplace Serover Inventory
 
 ## Enhancements & Ongoing Support
 + We will continue to work with you after we deliver the product and transition to your support team for ongoing maintenance
