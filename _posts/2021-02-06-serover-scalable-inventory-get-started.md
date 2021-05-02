@@ -27,15 +27,15 @@ If your business needs meet our product then please go to AWS marketplace and su
 ## Integrate with your ecosystem
 + Integrate with Serover Inventory Solutions in few easy steps below
 
-1. Once registred for subscription at AWS Marketplace, you will get an email title __Welcome to Serover Solution!__. This email contains token endpoint, api key, client id and client secret. Please save these values as sensitive information and do not share.
+1. Once registred for subscription at AWS Marketplace, you will get an email title __Welcome to Serover Inventory Solution!__. This email contains *__token endpoint__*, *__api key__*, *__client id__* and *__client secret__*. Please save these values as sensitive information and do not share.
 2. You need to generate an base64 encoded string with client id and client secret. You can use following command to generate it
 ```
-echo -n '<clientId>:<clientSecret>' | openssl base64
+echo -n '<client id>:<client secret>' | openssl base64
 ``` 
 3. You need to generate oauth token to access access serover APIs. To generated JWT token please make POST request to token endpoint using above base64 encoded string as below 
 ```
 curl -X POST \
-https://<tenantId>.auth.us-east-1.amazoncognito.com/oauth2/token \
+<token endpoint> \
 -H 'authorization: Basic <Base64 Encoded String>' \
 -H 'content-type: application/x-www-form-urlencoded' \
 -d 'grant_type=client_credentials&scope=transactions%2Fall'
