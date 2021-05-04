@@ -29,6 +29,7 @@ If your business needs meet our product then please go to AWS marketplace and su
 
 1. Once registred for subscription at AWS Marketplace, you will get an email title __Welcome to Serover Inventory Solution!__. This email contains *__token endpoint__*, *__api key__*, *__client id__* and *__client secret__*. Please save these values as sensitive information and do not share.
 2. You need to generate an base64 encoded string with client id and client secret. You can use following command to generate it
+
 ```
 echo -n '<client id>:<client secret>' | openssl base64
 ``` 
@@ -40,6 +41,7 @@ curl -X POST <Token Endpoint> \
 -H 'content-type: application/x-www-form-urlencoded' \
 -d 'grant_type=client_credentials&scope=transactions%2Fall'
 ```
+
 4. You oauth token is valid for 1 hour and needs to regenerated before that to access APIs. 
 5. Pass api key as __x-api-key__ and oauth token as __Authorization__ in headers for API call.
 
