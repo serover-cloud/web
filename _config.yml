@@ -29,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://serover.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: serovercom
 github_username: serovercom
-google_analytics: 'G-6QP5GLFCMF'
+google_analytics: G-W9B2PVNHDH
 
 # Build settings
 markdown: kramdown
