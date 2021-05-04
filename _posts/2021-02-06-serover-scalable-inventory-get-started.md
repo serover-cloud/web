@@ -33,9 +33,9 @@ If your business needs meet our product then please go to AWS marketplace and su
 echo -n '<client id>:<client secret>' | openssl base64
 ``` 
 3. You need to generate oauth token to access access serover APIs. To generated JWT token please make POST request to token endpoint using above base64 encoded string as below 
+
 ```
-curl -X POST \
-<token endpoint> \
+curl -X POST <Token Endpoint> \
 -H 'authorization: Basic <Base64 Encoded String>' \
 -H 'content-type: application/x-www-form-urlencoded' \
 -d 'grant_type=client_credentials&scope=transactions%2Fall'
