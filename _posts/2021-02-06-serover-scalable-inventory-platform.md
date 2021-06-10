@@ -6,7 +6,7 @@ categories: [ Scalable, Inventory, cloud, native ,serover ]
 image: assets/images/rdp.jpg
 featured: true
 ---
-Serover Inventory - Highly available Cloud Native Scalable Inventory platform that can easily integrate with your selling channels to provide accurate inventory visibility and enhance customer experience. The platform was build groung up with cloud native technologies.
+Serover Inventory - Highly Available Cloud Native Scalable Inventory platform that can easily integrate with your selling channels to provide accurate inventory visibility and enhance customer experience. The platform was build groung up with cloud native technologies.
 
 Core components of the serover.com framework are:
 + On-demand Scaling

@@ -18,7 +18,7 @@ The cloud-native, self-service SaaS environments are provisioned immediately. Th
 ## Provision
 + Evaluate the current landscape and provide fit gap assessment for the product
 + Provide business and technical benefits
-+ Tailored demo of the product
++ Tailored demo of the product - Please contact us at admin@serover.com
 
 If your business needs meet our product then please go to AWS marketplace and subscribe for the Serover Inventory at following location
 - https://aws.amazon.com/marketplace/pp/B093LMZMGJ
@@ -33,10 +33,10 @@ If your business needs meet our product then please go to AWS marketplace and su
 ```
 echo -n '<client id>:<client secret>' | openssl base64
 ``` 
-3. You need to generate oauth token to access access serover APIs. To generated JWT token please make POST request to token endpoint using above base64 encoded string as below 
+3. Now you need to generate oauth token to access serover APIs. To generated JWT token please make POST request to token endpoint using above base64 encoded string as below 
 
 ```
-curl -X POST <Token Endpoint> \
+curl -X POST <token endpoint> \
 -H 'authorization: Basic <Base64 Encoded String>' \
 -H 'content-type: application/x-www-form-urlencoded' \
 -d 'grant_type=client_credentials&scope=transactions%2Fall'
