@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-[Scalable Inventory.][home] is a Flexible, Scalable and Extensible event driven AI framework that can make real-time decisions. The product is developed and maintained by [Serover Technologies Inc][home]. The product would dovetail with your existing enterprise software ecosystem as it is built with open technologies that adheres to open standards.  
+[Serover Inventory.][home] is a Flexible, Scalable and Affordable inventory management API based platform. The product is developed and maintained by [Serover Technologies Inc][home]. The product would dovetail with your existing enterprise software ecosystem as it is built with open technologies that adheres to open standards.  
 
 
 # Our Vision
