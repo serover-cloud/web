@@ -7,18 +7,23 @@ image: assets/images/implementation.jpg
 featured: true
 ---
 
-Implementation and maintenance of enterprise class software can be challenging even for most mature process-oriented organizations. With Serover Scalable Inventory you can hit in the ground running in minutes. Our team has built Serover Scalable Inventory as a self service SaaS solution. Here are the high level steps to get Started :
+Implementation and maintenance of enterprise class software can be challenging even for most mature process-oriented organizations. Most of the inventory service provides available in market require extensive server provisioning, which could take weeks. Apart from provisioing, the implementation may require extensive mapping exercise and then development in client systems to call Inventory Service.   With Serover Scalable Inventory you can hit in the ground running in minutes. Our team has built Serover Scalable Inventory as a self service SaaS solution and is deployed on serverless architecture on AWS. So, you can start using our APIs instantly upon sign up. 
 
-* Provision
-* Integrate with your ecosystem
+Here are the high level steps to get started :
+
+* Self-service provision via AWS marketplace
+* Integrate with your ecosystem using our simple to use REST endpoints
 * Enhancements & Ongoing Support
 
-The cloud-native, self-service SaaS environments are provisioned immediately. The platform offers predictable pricing, performance, flexibility and the ability to auto-scale to meet changing demand.
+The cloud-native, self-service SaaS environments are provisioned immediately. The platform offers predictable pricing, performance, flexibility and the ability to elastically scale to meet changing demand.
 
 ## Provision
-+ Evaluate the current landscape and provide fit gap assessment for the product
-+ Provide business and technical benefits
-+ Tailored demo of the product - Please contact us at admin@serover.com
+
+Though you can sign up for a free trial on AWS marketplace, we recommend following steps before sign up to fully utilize the product features.
+
++ Prior to provisioning, work with our team for a free discovery consultation to evaluate system landscape and desired use cases
++ Identify integration needed to meet all use cases
++ Before committing to final purchase, our team can prepare a tailored demo of the product 
 
 If your business needs meet our product then please go to AWS marketplace and subscribe for the Serover Inventory at following location
 - https://aws.amazon.com/marketplace/pp/B093LMZMGJ
