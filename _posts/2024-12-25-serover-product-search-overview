@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Serover Product Search - Conversation product search using GenAI"
+permalink: /ryvue-overview/
+categories: [ GenAI, eCommerce, cloud, conversational ,serover ]
+image: assets/images/rdp.jpg
+featured: true
+---
+Serover Product Search - Retailers lose sales and frustrate customers due to poor product search experiences, so we built an AI-powered solution that delivers accurate, natural-language search results, provides insights into product reviews for better decisions, and offers personalized results based on customer preferences to boost conversions and satisfaction.
+
+Core components of the serover.com framework are:
++ Improve Product Discovery
++ Boost Customer Satisfaction
++ Increase Conversion Rates
++ Cloud Native
+
+# Improve Product Discovery
+> Enhance the ability for customers to find products that best match their needs by providing contextually relevant and sentiment-informed recommendations. Sentiment information is assigned based on real user generated content. 
+
+# Boost Customer Satisfaction
+> Deliver a seamless, engaging shopping experience by addressing user queries with accurate, transparent, and easy-to-understand product suggestions.
+
+# Increase Conversion Rates
+> Drive more sales by presenting users with tailored product recommendations that align closely with their preferences and expectations.
+
+# Cloud Native
+> Born in cloud and run in cloud with completely serverless platform.
